@@ -32,7 +32,7 @@ function Events({ data, isMusician, isDashboard }) {
 Events.propTypes = {
   data: PropTypes.array.isRequired,
   isMusician: PropTypes.bool.isRequired,
-  isDashboard: PropTypes.bool.isRequired
+  isDashboard: PropTypes.bool
 };
 
 Events.defaultProps = {
