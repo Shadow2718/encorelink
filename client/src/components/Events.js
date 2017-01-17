@@ -15,7 +15,7 @@ function Events({ data, isMusician, isDashboard }) {
         </div>
         <div className="small-2">
           { isDashboard && (
-            <Link to="/events">
+            <Link to="/events" className="hollow button">
               Find events
             </Link>
           ) }
