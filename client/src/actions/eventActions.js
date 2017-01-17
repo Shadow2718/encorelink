@@ -41,7 +41,7 @@ export function signUpForEvent(event) {
 
     startAction: () => signUpForEventStart(),
     successAction: (res) => {
-      browserHistory.push('/eventsAttending');
+      browserHistory.push('/dashboard');
       return signUpForEventSuccess(res);
     },
     failAction: (error) => signUpForEventFailure(error)

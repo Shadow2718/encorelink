@@ -1,6 +1,6 @@
 const modelAliases = {
   events: 'events',
-  eventsAttending: 'events',
+  dashboard: 'events',
 
   users: 'users',
   volunteers: 'users',

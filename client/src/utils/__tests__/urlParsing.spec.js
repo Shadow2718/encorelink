@@ -18,7 +18,7 @@ describe('getModelNameFromUrl', () => {
     expect(getModelNameFromUrl('events/1/volunteers')).toBe('users');
     expect(getModelNameFromUrl('events/1/owner')).toBe('users');
 
-    expect(getModelNameFromUrl('users/1/eventsAttending')).toBe('events');
-    expect(getModelNameFromUrl('users/1/eventsAttending')).toBe('events');
+    expect(getModelNameFromUrl('users/1/dashboard')).toBe('events');
+    expect(getModelNameFromUrl('users/1/dashboard')).toBe('events');
   });
 });

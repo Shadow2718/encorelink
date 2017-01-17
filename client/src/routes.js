@@ -25,7 +25,7 @@ const routes = (
       <Route path="/events" component={EventsContainer} />
       <Route path="/event/:id" component={EventContainer} />
       <Route path="/musicianProfile" component={MusicianProfile} />
-      <Route path="/eventsAttending" component={EventsAttendingContainer} />
+      <Route path="/dashboard" component={EventsAttendingContainer} />
       <Route path="/musician/:id" component={MusicianContainer} />
     </Route>
   </Route>
